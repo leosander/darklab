@@ -1,317 +1,166 @@
-# 🎬 DarkLAB - Automação Completa de Vídeos com IA
+# DarkLAB - Automação de Vídeos e Imagens no Google Labs VEO3
 
-> **Transforme áudios, textos e ideias em vídeos profissionais automaticamente usando Inteligência Artificial**
+Automação para criar vídeos e imagens no Google Labs VEO3 a partir de prompts e audios.
 
----
-
-## 📥 **DOWNLOAD**
-
-**[⬇️ BAIXAR AGORA - Versão 1.0.0](INSERIR_URL_DOWNLOAD_AQUI)**
-
-*Instalador Windows (.exe) - Tudo incluído, sem necessidade de instalar nada adicional*
+**[⬇️ BAIXAR - Versão 1.0.0](https://github.com/leosander/darklab/releases/download/v1.0.0/DarkLAB-1.0.0-win.zip)**
 
 ---
 
-## 🎯 **O QUE É O DARKLAB?**
+## O que faz
 
-O **DarkLAB** é uma automação completa que transforma seus áudios, textos ou ideias em vídeos profissionais usando as mais avançadas tecnologias de IA disponíveis. Você não precisa saber editar vídeo, criar roteiros ou entender de inteligência artificial - o DarkLAB faz tudo isso automaticamente para você.
-
-### **Como Funciona?**
-
-1. **Você fornece o conteúdo** (áudio, texto ou ideia)
-2. **O DarkLAB processa** usando Claude AI e Google Labs VEO3
-3. **Você recebe vídeos prontos** baixados automaticamente na sua pasta
-
-É simples assim! 🚀
+O DarkLAB automatiza a criação de vídeos e imagens no Google Labs VEO3. Em vez de você copiar e colar cada prompt manualmente no site, a automação faz isso sozinha - insere os prompts, cria os vídeos/imagens, monitora o progresso e baixa tudo quando pronto.
 
 ---
 
-## ✨ **O QUE VOCÊ PODE FAZER COM O DARKLAB**
+## Funcionalidades
 
-### 🎤 **1. Transformar Áudio em Vídeos**
+### Prompts/Texto
 
-Você tem um podcast, narração, aula ou qualquer áudio? O DarkLAB:
+Gera prompts usando Claude AI. Você pode definir quantos prompts quer por resposta para evitar que a IA corte qualquer prompt. Por exemplo, se quer 200 prompts, pode dividir em várias respostas (ex: 50 prompts por resposta = 4 respostas).
 
-- ✅ **Transcreve o áudio** automaticamente (reconhece a fala com precisão)
-- ✅ **Gera prompts inteligentes** sincronizados com cada parte do áudio
-- ✅ **Cria vídeos automaticamente** no Google Labs VEO3
-- ✅ **Baixa tudo organizado** na pasta que você escolher
+### Prompts/Narração
 
-**Exemplo:** Você tem um áudio de 10 minutos sobre "História de Roma". O DarkLAB cria automaticamente 20-30 vídeos curtos, cada um mostrando visualmente o que está sendo narrado naquele momento.
+Faz upload de um áudio (MP3, WAV, etc). O áudio é transcrito automaticamente e o sistema calcula como gerar prompts de vídeos sincronizados com o áudio. Cada prompt corresponde a uma parte específica da narração.
 
-### 📝 **2. Gerar Vídeos a partir de Texto**
+### Flow/Imagens
 
-Você tem uma ideia ou um texto? O DarkLAB:
+Automação de criação de imagens no Google Labs ImageFX. Você pode selecionar o modelo:
+- Nano Banana
+- Nano Banana Pro
+- Imagen4
 
-- ✅ **Gera prompts criativos** usando Claude AI
-- ✅ **Cria vídeos automaticamente** para cada prompt
-- ✅ **Organiza tudo** em um projeto completo
+### Flow/Vídeos
 
-**Exemplo:** Você digita "Crie 50 vídeos sobre curiosidades do espaço". O DarkLAB gera 50 prompts únicos e cria 50 vídeos automaticamente.
+Automação de criação de vídeos no Google Labs VEO3. Você pode:
+- Colocar prompts diretamente para gerar vídeos
+- Ou colocar um áudio - o sistema transcreve, gera prompts sincronizados e cria os vídeos automaticamente
 
-### 🎬 **3. Criar Vídeos Automaticamente no Google Labs VEO3**
+Modelos disponíveis:
+- Veo 3.1 Fast
+- Veo 3.1 Fast Low Priority
+- Veo 3.1 Quality
+- Veo 2 Fast
+- Veo 3 Quality
 
-O DarkLAB automatiza completamente a criação de vídeos:
+Quando você usa áudio, o sistema calcula automaticamente como cortar os vídeos. Na pasta de download, todos os vídeos já ficam prontos para vincular no áudio em um editor de vídeo.
 
-- ✅ **Faz login automaticamente** nas suas contas Google Labs
-- ✅ **Cria cada vídeo** um por um, sem você precisar clicar
-- ✅ **Monitora o progresso** e baixa quando estiver pronto
-- ✅ **Balanceia múltiplas contas** para criar mais vídeos simultaneamente
-- ✅ **Tenta novamente** automaticamente se algum vídeo falhar
+### Retry Automático
 
-**Você só precisa:** Selecionar os prompts e clicar em "Iniciar". O resto é automático!
+Vídeos e imagens têm tratamento automático para itens que deram problema ao gerar. O sistema detecta falhas e tenta novamente automaticamente.
 
-### 🖼️ **4. Criar Imagens Automaticamente no Google Labs ImageFX**
+### Retry Manual
 
-Além de vídeos, o DarkLAB também cria imagens:
-
-- ✅ **Gera imagens** a partir de prompts
-- ✅ **Baixa automaticamente** quando prontas
-- ✅ **Organiza por projeto** na pasta escolhida
-
-### ✂️ **5. Editar e Processar Vídeos**
-
-Depois de criar os vídeos, o DarkLAB pode:
-
-- ✅ **Aumentar qualidade (Upscale)** - Transforma vídeos em Full HD (1920x1080)
-- ✅ **Cortar vídeos** - Remove partes indesejadas automaticamente
-- ✅ **Juntar vídeos** - Concatena todos em um único vídeo
-- ✅ **Renomear** - Organiza os arquivos sequencialmente (1.mp4, 2.mp4...)
-
-### 🔄 **6. Tentar Novamente Vídeos que Falharam**
-
-Se algum vídeo não foi criado corretamente:
-
-- ✅ **Detecta automaticamente** quais vídeos falharam
-- ✅ **Tenta novamente** automaticamente
-- ✅ **Você pode escolher** quais vídeos tentar novamente
+Você pode fazer retry manual de qualquer vídeo da lista de vídeos. Basta selecionar quais vídeos quer tentar novamente.
 
 ---
 
-## 🚀 **COMO COMEÇAR**
+## Configurações
 
-### **Passo 1: Instalar**
+### Configs
 
-1. Baixe o instalador do link acima
-2. Execute o arquivo `.exe`
-3. Siga as instruções do instalador
-4. Pronto! Tudo está incluído - não precisa instalar Python, FFmpeg ou nada mais
+- **Linguagem**: Selecionar entre Português (PT-BR) e Inglês (EN)
+- **Contas Google**: Cadastrar suas contas do Google Labs (email e senha)
+- **API Key do Claude**: Cadastrar sua chave da API do Claude (obtenha em: https://console.anthropic.com/)
 
-### **Passo 2: Configurar**
+### Configurações ao Gerar Vídeos/Imagens
 
-1. Abra o **DarkLAB** (ícone na área de trabalho ou menu Iniciar)
-2. Vá em **⚙️ Configurações**
-3. Adicione sua **API Key do Claude** (obtenha em: https://console.anthropic.com/)
-4. Adicione suas **contas Google Labs** (email e senha)
+- **Aspect Ratio**: Landscape 16:9 ou Portrait 9:16
+- **Images/Videos por Prompt**: Quantidade de imagens/vídeos que vai gerar para cada prompt (entre 1 e 4)
+- **Threads**: Número de sessões que vai criar simultaneamente
 
-### **Passo 3: Usar**
+**Sobre Threads:**
 
-Escolha uma das opções:
+O DarkLAB usa um gerenciador de contas do Google Labs inteligente. Por exemplo:
+- Você tem 200 prompts para gerar
+- Tem 2 contas Google configuradas
+- Selecionou 10 threads
 
-- **🎤 Áudio para Vídeos** - Envie um áudio e deixe o DarkLAB criar os vídeos
-- **📝 Texto para Vídeos** - Digite uma ideia e gere vídeos automaticamente
-- **🎬 Criar Vídeos** - Use prompts já criados para gerar vídeos
-- **🖼️ Criar Imagens** - Gere imagens automaticamente
-- **✂️ Editar Vídeos** - Processe e melhore seus vídeos
+O sistema vai abrir 10 sessões em cada conta (total de 20 sessões) para gerar os 200 prompts simultaneamente. Isso acelera muito a criação de vídeos/imagens.
 
 ---
 
-## 💡 **EXEMPLOS DE USO**
+## Como Usar
 
-### **Criador de Conteúdo**
+### 1. Instalar
 
-Você grava vídeos para YouTube? Use o DarkLAB para:
-- Transformar seus podcasts em vídeos visuais
-- Criar vídeos de apoio para suas aulas
-- Gerar conteúdo visual para redes sociais
+Baixe o instalador, execute o arquivo `.exe` e siga as instruções. Tudo está incluído, não precisa instalar nada adicional.
 
-### **Educador**
+### 2. Configurar
 
-Você dá aulas ou cursos? Use o DarkLAB para:
-- Transformar suas explicações em vídeos ilustrativos
-- Criar material visual para seus alunos
-- Gerar conteúdo educativo automaticamente
+Abra o DarkLAB e vá em **Configurações**:
 
-### **Empresário/Marketing**
+1. **API Key do Claude**: Cole sua chave (obtenha em https://console.anthropic.com/)
+2. **Contas Google**: Adicione suas contas do Google Labs (email e senha)
+3. **Linguagem**: Escolha PT-BR ou EN
 
-Você precisa de vídeos para marketing? Use o DarkLAB para:
-- Criar vídeos promocionais a partir de scripts
-- Gerar conteúdo visual para campanhas
-- Automatizar criação de vídeos em massa
+### 3. Gerar Prompts a partir de Texto
 
-### **Criativo**
+1. Vá na aba **Prompts**
+2. Escolha **Entrada por Texto**
+3. Digite o que você quer (ex: "Gere prompts para vídeos sobre história de Roma")
+4. Defina quantos prompts quer e quantos por resposta
+5. Clique em **Gerar Prompts**
 
-Você tem ideias e quer ver elas em vídeo? Use o DarkLAB para:
-- Transformar conceitos em vídeos reais
-- Explorar visualmente suas ideias
-- Criar protótipos visuais rapidamente
+### 4. Gerar Vídeos a partir de Áudio
 
----
+1. Vá na aba **Prompts**
+2. Clique em **Upload de Áudio**
+3. Selecione um arquivo de áudio (MP3, WAV, etc)
+4. Configure:
+   - Título do projeto
+   - Prefixo de estilo (opcional)
+   - Marque "Criar vídeos automaticamente" se quiser
+5. Clique em **Processar**
 
-## 🎁 **O QUE ESTÁ INCLUÍDO**
+O sistema vai transcrever o áudio, gerar prompts sincronizados e criar os vídeos automaticamente. Os vídeos já ficam cortados e prontos para usar no editor.
 
-Quando você instala o DarkLAB, **tudo já vem pronto**:
+### 5. Criar Vídeos com Prompts Manuais
 
-- ✅ **Aplicação completa** - Interface moderna e intuitiva
-- ✅ **Todas as ferramentas** - FFmpeg, processadores de áudio, etc.
-- ✅ **Extensão Chrome** - Para automação do Google Labs (já incluída)
-- ✅ **Sistema de templates** - Salve e reutilize seus projetos
-- ✅ **Suporte a múltiplas contas** - Use várias contas Google simultaneamente
-- ✅ **Sistema de retry** - Tenta novamente automaticamente se algo falhar
+1. Vá na aba **Vídeos VEO3**
+2. Cole ou digite seus prompts (um por linha)
+3. Configure:
+   - Nome do projeto
+   - Modelo (Veo 3.1 Fast, etc)
+   - Aspect Ratio (Landscape 16:9 ou Portrait 9:16)
+   - Vídeos por Prompt (1 a 4)
+   - Threads (número de sessões simultâneas)
+   - Pasta de download
+4. Clique em **Iniciar Criação**
 
-**Você não precisa:**
-- ❌ Instalar Python
-- ❌ Instalar FFmpeg
-- ❌ Baixar modelos de IA
-- ❌ Configurar nada complexo
-- ❌ Entender programação
+A automação vai inserir todos os prompts no site, criar os vídeos, monitorar o progresso e baixar tudo quando pronto.
 
----
+### 6. Criar Imagens
 
-## 🔧 **REQUISITOS**
+1. Vá na aba **Imagens ImageFX**
+2. Cole ou digite seus prompts
+3. Configure:
+   - Nome do projeto
+   - Modelo (Nano Banana, etc)
+   - Aspect Ratio
+   - Imagens por Prompt (1 a 4)
+   - Threads
+   - Pasta de download
+4. Clique em **Iniciar Criação**
 
-- **Windows 10 ou superior**
-- **Conexão com internet** (para criar vídeos no Google Labs)
-- **Conta Google Labs** (para criar vídeos - gratuita)
-- **API Key do Claude** (para gerar prompts - paga, mas muito barata)
-- **Espaço em disco** - Recomendado 2GB+ para vídeos
+### 7. Retry Manual de Vídeos
 
----
+1. Vá na lista de vídeos
+2. Selecione os vídeos que falharam ou que quer tentar novamente
+3. Clique em **Retry Selecionados**
 
-## 📋 **FUNCIONALIDADES DETALHADAS**
+--
 
-### **🎤 Processamento de Áudio**
+## Notas
 
-- Transcreve áudio automaticamente usando Groq API
-- Sincroniza prompts com a narração
-- Suporta MP3, WAV, M4A e outros formatos
-- Gera prompts inteligentes baseados no conteúdo
-
-### **🤖 Geração de Prompts com Claude AI**
-
-- Usa Claude Sonnet 4.5 (modelo mais avançado)
-- Gera prompts criativos e detalhados
-- Adapta o estilo conforme você pedir
-- Cria prompts sincronizados com áudio
-
-### **🎬 Automação Google Labs VEO3**
-
-- Faz login automaticamente
-- Cria vídeos um por um
-- Monitora progresso em tempo real
-- Baixa automaticamente quando pronto
-- Detecta e trata erros automaticamente
-- Suporta múltiplas contas com balanceamento
-
-### **🖼️ Automação Google Labs ImageFX**
-
-- Cria imagens automaticamente
-- Baixa e organiza por projeto
-- Monitora progresso
-- Tenta novamente se falhar
-
-### **✂️ Editor de Vídeos**
-
-- **Upscale**: Aumenta resolução para 1920x1080
-- **Corte**: Remove partes indesejadas
-- **Concatenação**: Junta múltiplos vídeos
-- **Renomeação**: Organiza arquivos sequencialmente
-
-### **🔄 Sistema de Retry**
-
-- Detecta vídeos/imagens que falharam
-- Tenta novamente automaticamente
-- Permite escolher quais tentar novamente
-- Mantém histórico de tentativas
-
-### **📁 Organização**
-
-- Cria pastas por projeto automaticamente
-- Organiza vídeos e imagens por prompt
-- Mantém templates salvos
-- Histórico de automações
-
----
-
-## ❓ **PERGUNTAS FREQUENTES**
-
-### **Preciso saber programar?**
-
-Não! O DarkLAB foi feito para ser usado por qualquer pessoa. Interface simples e intuitiva.
-
-### **Preciso instalar algo além do DarkLAB?**
-
-Não! Tudo está incluído no instalador. Só precisa instalar o DarkLAB e configurar suas contas.
-
-### **Quanto custa usar?**
-
-- **DarkLAB**: Você paga uma vez (ou conforme o modelo de negócio)
-- **Claude API**: Você paga por uso (muito barato - alguns centavos por mil prompts)
-- **Google Labs**: Gratuito (mas com limites de uso)
-
-### **Funciona offline?**
-
-A maior parte funciona offline, mas para **criar vídeos** você precisa de internet (os vídeos são criados no Google Labs, que é online).
-
-### **Quantos vídeos posso criar?**
-
-Depende do seu plano do Google Labs. O DarkLAB suporta múltiplas contas, então você pode usar várias contas para criar mais vídeos.
-
-### **Os vídeos são meus?**
-
-Sim! Todos os vídeos criados são seus. O DarkLAB apenas automatiza a criação - os vídeos são criados na sua conta Google Labs.
-
-### **Posso usar para YouTube/comercial?**
-
-Sim! Os vídeos são criados na sua conta, então você pode usar como quiser.
-
-### **E se algo der errado?**
-
-O DarkLAB tem sistema de retry automático. Se um vídeo falhar, ele tenta novamente. Você também pode escolher quais vídeos tentar novamente manualmente.
-
-### **Preciso de conta Google Labs?**
-
-Sim, para criar vídeos você precisa de uma conta Google Labs (é gratuita, basta se inscrever).
-
-### **Como obtenho a API Key do Claude?**
-
-1. Acesse: https://console.anthropic.com/
-2. Crie uma conta (se não tiver)
-3. Vá em "API Keys"
-4. Crie uma nova chave
-5. Cole no DarkLAB nas configurações
-
----
-
-## 🆘 **SUPORTE**
-
-Se você tiver problemas ou dúvidas:
-
-- Verifique se todas as configurações estão corretas
-- Certifique-se de que tem internet quando for criar vídeos
-- Verifique se suas contas Google Labs estão funcionando
-- Confirme que sua API Key do Claude está válida
-
----
-
-## 📝 **NOTAS IMPORTANTES**
-
-- O DarkLAB automatiza a criação de vídeos, mas os vídeos são criados no Google Labs (serviço da Google)
+- Os vídeos são criados no Google Labs (serviço da Google)
 - Você precisa ter contas Google Labs válidas
-- A API do Claude tem custos (mas são muito baixos)
+- A API do Claude tem custos (alguns centavos por mil prompts)
 - Vídeos são baixados automaticamente quando prontos
 - Você pode usar múltiplas contas para criar mais vídeos simultaneamente
+- A automação funciona sozinha - não precisa ficar na frente do computador
 
 ---
 
-## 🎉 **PRONTO PARA COMEÇAR?**
+**[⬇️ BAIXAR - Versão 1.0.0](https://github.com/leosander/darklab/releases/download/v1.0.0/DarkLAB-1.0.0-win.zip)**
 
-**[⬇️ BAIXAR AGORA - Versão 1.0.0](INSERIR_URL_DOWNLOAD_AQUI)**
-
-*Transforme suas ideias em vídeos profissionais em minutos, não horas!*
-
----
-
-**© 2026 DarkLAB • Powered by AI**
-
-*Desenvolvido com ❤️ para tornar a criação de vídeos acessível a todos*
+© 2026 DarkLAB
