@@ -1,4 +1,13 @@
-# DarkLAB - Automação de Vídeos e Imagens no Google Labs VEO3
+# DarkLAB - Automação de Vídeos e Imagens
+
+
+<div align="center" style="display: flex; gap: 20px; justify-content: center; margin: 30px 0;">
+  <img src="https://github.com/user-attachments/assets/ac43b871-ebc4-4c99-a5f1-b189f996f524" alt="darklab1" style="width: 49%; max-width: 500px; border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
+  <img src="https://github.com/user-attachments/assets/8a9b4ddf-b1a1-4456-a8a0-448d040168c7" alt="darklab2" style="width: 49%; max-width: 500px; border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
+</div>
+
+
+
 
 Automação para criar vídeos e imagens no Google Labs VEO3 a partir de prompts e audios.
 
